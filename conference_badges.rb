@@ -19,4 +19,6 @@ def printer(array_name)
  
   batch_badge_creator(array_name).each do puts batch_badge_creator(array_name)
 end
+  assign_rooms(array_name).each do puts assign_rooms(array_name)
+end
 end
