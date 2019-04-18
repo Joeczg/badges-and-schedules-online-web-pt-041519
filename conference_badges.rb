@@ -17,20 +17,6 @@ def assign_rooms(array_name)
 end
 def printer(array_name)
  
-  n=0
-  result=[]
-  result= batch_badge_creator(array_name)
- 
-  for n in (0..result.size) 
-  puts result[n]
-  end
-  
-  new_array=[]
-  new_array=assign_rooms(array_name)
-  count=0
-  for count in (0..new_array.size)
-  puts new_array[count]
-
- 
+  batch_badge_creator.each
 end
 end
